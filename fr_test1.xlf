@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+    xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file datatype="plaintext" original="self" source-language="en" target-language="fr">
+        <header>
+            <sxmd:metadata
+                xmlns:sxmd="urn:x-sap:mlt:xliff12:metadata:1.0"
+                xmlns="urn:x-sap:mlt:tsmetadata:1.0">
+                <object-name>tutorial1</object-name>
+                <collection>tutorial</collection>
+                <domain>BC</domain>
+                <developer>I044892</developer>
+                <description>XLIFF file from MLT's XLIFF library tutorial</description>
+            </sxmd:metadata>
+        </header>
+        <body>
+            <trans-unit id="hello_world" restype="menuitem">
+                <source>Hello world!</source>
+                <target>Bonjour le monde!</target>
+            </trans-unit>
+            <group restype="menu">
+                <trans-unit id="file_menu" restype="caption">
+                    <source>Translation</source>
+                    <target>Traduction_CMLTR</target>
+                </trans-unit>
+                <trans-unit id="file_menu_new" restype="menuitem">
+                    <source>New</source>
+                    <target>Nouveau</target>
+                </trans-unit>
+                <trans-unit id="file_menu_exit" restype="menuitem">
+                    <source>Exit</source>
+                    <target>Sortie</target>
+                </trans-unit>
+            </group>
+            <trans-unit id="email_template" restype="menuitem">
+                <source>Dear<ph id="customer_placeholder">$CUSTOMER$</ph>,...
+                </source>
+                <target>Cher
+                    <ph id="customer_placeholder">$CUSTOMER$</ph>,...
+                </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
